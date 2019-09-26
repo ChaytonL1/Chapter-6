@@ -8,8 +8,12 @@ public class CountByThrees {
 
         while ( count < 301)
         {
+            System.out.println( " " + count);
+            if (count % 30 == 0)
+            {
+            System.out.println();
+            }
 
-            System.out.println(count);
             count = count +3;
 
         }

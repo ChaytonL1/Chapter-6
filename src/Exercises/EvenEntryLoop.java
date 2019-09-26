@@ -9,7 +9,7 @@ public class EvenEntryLoop {
         Scanner input = new Scanner(System.in);
         int user = 1;
 
-        while( user < 999)
+        while( user != 999)
         {
             System.out.println(" Enter an even number. >>");
             user = input.nextInt();
